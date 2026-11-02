@@ -1,48 +1,21 @@
 {
   "schema": 1,
-  "revision": 1,
+  "revision": 2,
   "rules": {
     "model_keys": [
-      "video_model",
-      "videoModel",
-      "model",
-      "video_info",
       "videoInfo"
     ],
     "variant_keys": [
-      "video_list",
-      "video_models",
-      "bitrate_list",
-      "videoList",
-      "bitrateList",
-      "renditions",
       "videoSources"
     ],
     "episode_map_keys": [
-      "video_models",
-      "video_model_map",
-      "videos",
-      "videoModels",
-      "episode_map",
       "episodeMap"
     ],
     "url_keys": [
-      "main_url",
-      "url",
-      "play_url",
-      "url_list",
-      "backup_url_1",
-      "backup_url",
-      "backup_url_2",
-      "backup_url_list",
-      "mainUrl",
-      "playUrl",
-      "backupUrls",
       "streamAddress"
     ],
     "playback_endpoints": [
-      "multi_video_model/v1/",
-      "multi_video_model/v2/"
+      "video_model/v1/"
     ]
   }
 }
