@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "revision": 1,
+  "rules": {
+    "model_keys": [
+      "videoInfo"
+    ],
+    "variant_keys": [
+      "videoSources"
+    ],
+    "episode_map_keys": [
+      "episodeMap"
+    ],
+    "url_keys": [
+      "streamAddress"
+    ],
+    "playback_endpoints": [
+      "multi_video_model/v2/"
+    ]
+  }
+}
